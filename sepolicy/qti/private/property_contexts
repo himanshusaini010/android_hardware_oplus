@@ -2,13 +2,19 @@
 sys.oplus_ftm_mode    u:object_r:exported_system_prop:s0
 
 # Autotest
+<<<<<<< HEAD
 oplus.autotest.                             u:object_r:exported_system_prop:s0
 persist.sys.oplus.autotest.monkeyRunning    u:object_r:exported_system_prop:s0
+=======
+oplus.autotest.                u:object_r:exported_system_prop:s0
+persist.sys.oplus.autotest.    u:object_r:exported_system_prop:s0
+>>>>>>> a6255ed (sepolicy: qti: Bring up support for waffle (OnePlus 12))
 
 # Bluetooth
 persist.sys.bt.a2dp.pendingtime    u:object_r:exported_system_prop:s0
 
 # Camera
+<<<<<<< HEAD
 NA                                     u:object_r:exported_system_prop:s0
 oplus.camera.                          u:object_r:exported_system_prop:s0
 oppo.camera.                           u:object_r:exported_system_prop:s0
@@ -30,8 +36,22 @@ vendor.camera.                         u:object_r:exported_system_prop:s0
 vendor.oplus.                          u:object_r:exported_system_prop:s0
 vendor.oppo.                           u:object_r:exported_system_prop:s0
 vendor.runtime.fastcv.log              u:object_r:exported_system_prop:s0
+=======
+cam.algo.                        u:object_r:exported_system_prop:s0
+com.oplus.camera.                u:object_r:exported_system_prop:s0
+oplus.camera.                    u:object_r:exported_system_prop:s0
+oppo.camera.                     u:object_r:exported_system_prop:s0
+persist.camera.                  u:object_r:exported_system_prop:s0
+persist.sys.camera.lao.enable    u:object_r:exported_system_prop:s0
+ro.camera.res.                   u:object_r:exported_system_prop:s0
+ro.camera.req.                   u:object_r:exported_system_prop:s0
+ro.hardware.chipname             u:object_r:exported_system_prop:s0
+ro.oppo.market.                  u:object_r:exported_system_prop:s0
+>>>>>>> a6255ed (sepolicy: qti: Bring up support for waffle (OnePlus 12))
 
 # Display
+awb.purecolor.enable               u:object_r:exported_system_prop:s0
+persist.oplus.display.vrr.adfr     u:object_r:exported_system_prop:s0
 persist.sys.display.iris.absent    u:object_r:system_oplus_iris_prop:s0
 ro.oplus.display.                  u:object_r:exported_system_prop:s0
 
@@ -47,10 +67,20 @@ oplus.optical.        u:object_r:system_fingerprint_prop:s0
 persist.sys.fp.       u:object_r:system_fingerprint_prop:s0
 
 # Logging
+<<<<<<< HEAD
 persist.al.cfr.loglevel             u:object_r:exported_system_prop:s0
 persist.sys.assert.panic            u:object_r:exported_system_prop:s0
 persist.sys.debuglog.               u:object_r:exported_system_prop:s0
 persist.sys.log.                    u:object_r:exported_system_prop:s0
+=======
+aec.custom.debug.               u:object_r:exported_system_prop:s0
+persist.sys.assert.panic        u:object_r:exported_system_prop:s0
+persist.sys.camera.log.scene    u:object_r:exported_system_prop:s0
+persist.sys.debuglog.config     u:object_r:exported_system_prop:s0
+persist.sys.log.ae              u:object_r:exported_system_prop:s0
+persist.sys.log.af              u:object_r:exported_system_prop:s0
+persist.sys.log.awb             u:object_r:exported_system_prop:s0
+>>>>>>> a6255ed (sepolicy: qti: Bring up support for waffle (OnePlus 12))
 
 # Modem
 persist.sys.enable_modem_dump    u:object_r:exported_system_prop:s0
@@ -59,18 +89,22 @@ persist.sys.enable_modem_dump    u:object_r:exported_system_prop:s0
 sys.oplus.high.performance    u:object_r:exported_system_prop:s0
 
 # Radio
-ro.build.display.full_id    u:object_r:exported_system_prop:s0
-ro.build.oplus_nv_id        u:object_r:exported_system_prop:s0
-ro.sys.reserve.integrate    u:object_r:exported_system_prop:s0
-sys.oplus_boot_mode         u:object_r:exported_system_prop:s0
-sys.oplus.radio.            u:object_r:system_oplus_radio_prop:s0
+persist.radio.oplus.qcrild_start    u:object_r:exported_system_prop:s0
+ro.build.display.full_id            u:object_r:exported_system_prop:s0
+ro.build.oplus_nv_id                u:object_r:exported_system_prop:s0
+ro.sys.reserve.integrate            u:object_r:exported_system_prop:s0
+sys.oplus_boot_mode                 u:object_r:exported_system_prop:s0
+sys.oplus.radio.                    u:object_r:system_oplus_radio_prop:s0
 
 # SVN
+ro.build.version.ota      u:object_r:exported_system_prop:s0
 ro.build.version.svn      u:object_r:exported_system_prop:s0
 ro.build.version.svn.c    u:object_r:exported_system_prop:s0
 
 # Touch
-persist.sys.tpic.    u:object_r:system_oplus_touch_prop:s0
+persist.sys.alwayson.    u:object_r:system_oplus_touch_prop:s0
+persist.sys.tpic.        u:object_r:system_oplus_touch_prop:s0
+sys.touch.game_mode      u:object_r:system_oplus_touch_prop:s0
 
 # Version
 ro.separate.soft    u:object_r:system_oplus_project_prop:s0
@@ -78,3 +112,5 @@ ro.separate.soft    u:object_r:system_oplus_project_prop:s0
 # WCNSS
 ro.vendor.vold.serialno                               u:object_r:vendor_vold_prop:s0
 vendor.vold.serialno                                  u:object_r:vendor_vold_prop:s0
+ro.build.release_type      u:object_r:exported_system_prop:s0
+ro.version.confidential    u:object_r:exported_system_prop:s0

@@ -49,3 +49,7 @@ type vendor_sysfs_fastcharge, fs_type, sysfs_type;
 
 # Versioning
 type vendor_proc_oplus_version, fs_type, proc_type;
+
+# Sync
+type sysfs_sync, fs_type, sysfs_type;
+type vendor_sysfs_msm_subsys, fs_type, sysfs_type;

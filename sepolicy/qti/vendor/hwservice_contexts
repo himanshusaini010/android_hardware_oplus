@@ -11,6 +11,9 @@ vendor.qti.hardware.camera.cameraextension::ICameraExtensionService    u:object_
 # Charger
 vendor.oplus.hardware.charger::ICharger             u:object_r:vendor_hal_charger_hwservice:s0
 
+# CommonDcs
+vendor.oplus.hardware.commondcs::ICommonDcsHalService    u:object_r:vendor_hal_commondcs_hwservice:s0
+
 # Cryptoeng
 vendor.oplus.hardware.cryptoeng::ICryptoeng         u:object_r:hal_cryptoeng_hwservice:s0
 
@@ -27,7 +30,6 @@ vendor.dolby_sp.hardware.dmssp::IDms                u:object_r:hal_dms_hwservice
 
 # Fingerprint
 vendor.oplus.hardware.biometrics.fingerprint::IBiometricsFingerprint    u:object_r:hal_fingerprint_hwservice:s0
-vendor.oplus.hardware.commondcs::ICommonDcsHalService                   u:object_r:hal_fingerprint_hwservice:s0
 
 # ORMS
 vendor.oplus.hardware.orms::IOrmsHalProxy    u:object_r:vendor_hal_orms_hwservice:s0

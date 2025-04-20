@@ -1,6 +1,9 @@
 # Alert Slider
 /vendor/bin/tri-state-key-calibrate    u:object_r:tri-state-key-calibrate_exec:s0
 
+# Audio Amplifier
+/dev/aw882xx_smartpa    u:object_r:oplus_awsmartpa_device:s0
+
 # Camera
 /data/vendor/camera_update(/.*)?                                                             u:object_r:vendor_camera_update_data_file:s0
 /mnt/vendor/dsp/fastrpc_shell_3                                                              u:object_r:public_adsprpcd_file:s0

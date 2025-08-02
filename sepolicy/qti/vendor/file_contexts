@@ -158,6 +158,9 @@
 /dev/jiiov_fp                                                                                    u:object_r:fingerprint_device:s0
 /dev/silead_fp                                                                                   u:object_r:fingerprint_device:s0
 
+# Fingerprint Pay
+/(odm|vendor/odm)/bin/hw/vendor\.oplus\.hardware\.biometrics\.fingerprintpay@1\.0-service    u:object_r:hal_fingerprintpay_oplus_exec:s0
+
 # Graphics
 /(vendor|system/vendor)/lib(64)?/libgpudataproducer\.so                                          u:object_r:same_process_hal_file:s0
 

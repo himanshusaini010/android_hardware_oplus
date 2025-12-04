@@ -24,7 +24,7 @@ import android.view.animation.AccelerateInterpolator;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
-import androidx.preference.PreferenceFragment;
+import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceScreen;
@@ -43,7 +43,7 @@ import org.lineageos.settings.R;
 import org.lineageos.settings.services.*;
 import org.lineageos.settings.slider.SliderConstants;
 
-public class OPlusExtras extends PreferenceFragment
+public class OPlusExtras extends PreferenceFragmentCompat
         implements Preference.OnPreferenceChangeListener {
     private static final String TAG = OPlusExtras.class.getSimpleName();
 
@@ -120,7 +120,7 @@ public class OPlusExtras extends PreferenceFragment
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
-        addPreferencesFromResource(R.xml.main);
+        setPreferencesFromResource(R.xml.main, rootKey);
 
         SharedPreferences prefs = getActivity().getSharedPreferences("main",
                 Activity.MODE_PRIVATE);
@@ -552,8 +552,8 @@ public class OPlusExtras extends PreferenceFragment
     }
 
     @Override
-    public void addPreferencesFromResource(int preferencesResId) {
-        super.addPreferencesFromResource(preferencesResId);
+    public void setPreferencesFromResource(int preferencesResId, String rootKey) {
+        super.setPreferencesFromResource(preferencesResId, rootKey);
         // Initialize node preferences
         for (String pref : SliderConstants.sBooleanNodePreferenceMap.keySet()) {
             SwitchPreference b = (SwitchPreference) findPreference(pref);

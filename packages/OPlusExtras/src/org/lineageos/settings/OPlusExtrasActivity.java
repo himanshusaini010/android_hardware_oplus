@@ -9,7 +9,7 @@ package org.lineageos.settings;
 
 import android.app.Fragment;
 import android.os.Bundle;
-import androidx.preference.PreferenceFragment;
+import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
@@ -22,11 +22,11 @@ public class OPlusExtrasActivity extends CollapsingToolbarBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Fragment fragment = getFragmentManager().findFragmentById(
+        androidx.fragment.app.Fragment fragment = getSupportFragmentManager().findFragmentById(
                                 com.android.settingslib.collapsingtoolbar.R.id.content_frame);
         if (fragment == null) {
             mOPlusExtrasFragment = new OPlusExtras();
-            getFragmentManager().beginTransaction()
+            getSupportFragmentManager().beginTransaction()
                 .add(com.android.settingslib.collapsingtoolbar.R.id.content_frame, mOPlusExtrasFragment)
                 .commit();
         } else {

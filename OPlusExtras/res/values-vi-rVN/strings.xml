@@ -20,9 +20,6 @@
     <!-- Oplus Extras -->
     <string name="oplus_extras_title">Tính năng bổ sung</string>
     <string name="oplus_extras_summary">Điều chỉnh cài đặt thiết bị</string>
-    <string name="oplus_extras_warning_title">Cảnh báo</string>
-    <string name="oplus_extras_warning_text">Những tính năng này chủ yếu dựa vào các node của kernel để hoạt động. Các tính năng này có thể không hoạt động nếu bạn flash kernel khác!</string>
-    <string name="oplus_extras_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Thanh trượt chuông</string>
     <string name="notification_slider_title">Cài đặt thanh trượt chuông</string>

@@ -20,9 +20,6 @@
     <!-- Oplus Extras -->
     <string name="oplus_extras_title">Extra funkce zařízení</string>
     <string name="oplus_extras_summary">Upravte konkrétní nastavení zařízení</string>
-    <string name="oplus_extras_warning_title">Varování</string>
-    <string name="oplus_extras_warning_text">Většina těchto funkcí je pro svou funkci závislá na konkrétních uzlech jádra. Při instalaci vlastního jádra riskujete, že ztratíte přístup k některým funkcím. Byli jste varováni!</string>
-    <string name="oplus_extras_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Posuvník oznámení</string>
     <string name="notification_slider_title">Nastavení posuvníku oznámení</string>

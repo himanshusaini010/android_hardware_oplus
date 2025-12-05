@@ -10,9 +10,6 @@
     <!-- OPlus Extras -->
     <string name="oplus_extras_title">OPlus 設定</string>
     <string name="oplus_extras_summary">調整設備的特殊設定</string>
-    <string name="oplus_extras_warning_title">注意</string>
-    <string name="oplus_extras_warning_text">這些功能大多依賴於特定內核節點才能起作用。刷入自訂內核後某些功能可能無法使用。</string>
-    <string name="oplus_extras_dialog">確定</string>
 
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">數值: <xliff:g id="v">%s</xliff:g></string>

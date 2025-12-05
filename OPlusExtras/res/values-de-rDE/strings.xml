@@ -18,9 +18,6 @@
     <!-- Oplus Extras -->
     <string name="oplus_extras_title">Geräteextras</string>
     <string name="oplus_extras_summary">Gerätespezifische Einstellungen anpassen</string>
-    <string name="oplus_extras_warning_title">Warnung</string>
-    <string name="oplus_extras_warning_text">Die meisten dieser Funktionen sind auf bestimmte Kernelknoten angewiesen, um zu funktionieren. Wenn Sie einen benutzerdefinierten Kernel flashen, riskieren Sie, dass Sie den Zugang zu einigen Funktionen verlieren.</string>
-    <string name="oplus_extras_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Alarm-Schieberegler</string>
     <string name="notification_slider_title">Alert-Slider Einstellungen</string>

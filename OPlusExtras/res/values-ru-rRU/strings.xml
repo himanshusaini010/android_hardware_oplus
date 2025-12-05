@@ -9,9 +9,6 @@
     <!-- OPlus Extras -->
     <string name="oplus_extras_title">Настройки OnePlus</string>
     <string name="oplus_extras_summary">Дополнительные настройки для OnePlus</string>
-    <string name="oplus_extras_warning_title">Предупреждение</string>
-    <string name="oplus_extras_warning_text">Работа большинства этих функций зависит от ядра. Прошивая стороннее ядро, вы рискуете потерять доступ к некоторым функциям. Вы были предупреждены!</string>
-    <string name="oplus_extras_dialog">Хорошо</string>
 
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Значение: <xliff:g id="v">%s</xliff:g></string>

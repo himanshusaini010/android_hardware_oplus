@@ -9,9 +9,6 @@
     <!-- OPlus Extras -->
     <string name="oplus_extras_title">OPlus Extras</string>
     <string name="oplus_extras_summary">Ajustar configurações específicas do dispositivo</string>
-    <string name="oplus_extras_warning_title">Aviso</string>
-    <string name="oplus_extras_warning_text">A maioria destes recursos são atribuídas ao kernel stock. Ao instalar um kernel personalizado, você está sujeito a perder algumas funções. Você foi avisado!</string>
-    <string name="oplus_extras_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Controle deslizante de alerta</string>
     <string name="notification_slider_title">Configurações do controle deslizante de alerta</string>

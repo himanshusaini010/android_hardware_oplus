@@ -9,9 +9,6 @@
     <!-- OPlus Extras -->
     <string name="oplus_extras_title">OPlus Extrák</string>
     <string name="oplus_extras_summary">Itt állíthat be OnePlus specifikus lehetőségeket</string>
-    <string name="oplus_extras_warning_title">Figyelmeztetés</string>
-    <string name="oplus_extras_warning_text">Ezen szolgáltatások többsége a helyes működéshez meghatározott kernelbázisokra támaszkodik. Amennyiben Ön egyéni kernelt flessel, azt kockáztatja, hogy elveszíti a hozzáférést bizonyos funkciókhoz. Mi előre szóltunk!</string>
-    <string name="oplus_extras_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Értesítőcsúszka</string>
     <string name="notification_slider_title">A csúszka beállításai</string>

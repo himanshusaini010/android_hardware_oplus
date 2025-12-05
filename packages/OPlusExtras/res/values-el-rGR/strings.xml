@@ -9,9 +9,6 @@
     <!-- OPlus Extras -->
     <string name="oplus_extras_title">Πρόσθετα Συσκευής</string>
     <string name="oplus_extras_summary">Προσαρμόστε τις ειδικές ρυθμίσεις της συσκευής</string>
-    <string name="oplus_extras_warning_title">Προσοχή</string>
-    <string name="oplus_extras_warning_text">Η πλειονότητα αυτών των χαρακτηριστικών βασίζεται σε συγκεκριμένους κόμβους kernel για να λειτουργήσει. Με την εγκατάσταση ενός προσαρμοσμένου kernel, κινδυνεύετε να χάσετε την πρόσβαση σε ορισμένες λειτουργίες. Έχετε προειδοποιηθεί!</string>
-    <string name="oplus_extras_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Διακόπτης Ειδοποιήσεων</string>
     <string name="notification_slider_title">Ρυθμίσεις Διακόπτη Ειδοποιήσεων</string>

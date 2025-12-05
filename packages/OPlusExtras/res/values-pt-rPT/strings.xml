@@ -9,9 +9,6 @@
     <!-- OPlus Extras -->
     <string name="oplus_extras_title">Definições Extra</string>
     <string name="oplus_extras_summary">Ajustar configurações específicas do dispositivo</string>
-    <string name="oplus_extras_warning_title">Aviso</string>
-    <string name="oplus_extras_warning_text">A maioria destas funcionalidades dependem de um kernel específico para um funcionamento correto. Aviso: Ao instalar um kernel personalizado, está sujeito a perder acesso a algumas funções!</string>
-    <string name="oplus_extras_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Slider de notificações</string>
     <string name="notification_slider_title">Definições do Slider de notificações</string>

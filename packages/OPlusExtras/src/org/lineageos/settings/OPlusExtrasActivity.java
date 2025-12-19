@@ -7,12 +7,10 @@
 
 package org.lineageos.settings;
 
-import android.app.Fragment;
 import android.os.Bundle;
-import androidx.preference.PreferenceFragmentCompat;
-import androidx.preference.PreferenceManager;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
+import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 public class OPlusExtrasActivity extends CollapsingToolbarBaseActivity {
 

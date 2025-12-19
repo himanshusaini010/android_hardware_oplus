@@ -27,11 +27,11 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.preference.PreferenceFragmentCompat;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.android.settingslib.applications.ApplicationsState;
+import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 import org.lineageos.settings.R;
 
@@ -41,7 +41,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ColorSpaceSettingsFragment extends PreferenceFragmentCompat
+public class ColorSpaceSettingsFragment extends SettingsBasePreferenceFragment
     implements ApplicationsState.Callbacks {
 
     private AllPackagesAdapter mAllPackagesAdapter;

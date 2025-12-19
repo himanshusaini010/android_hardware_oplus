@@ -24,7 +24,6 @@ import android.view.animation.AccelerateInterpolator;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
-import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceScreen;
@@ -43,7 +42,9 @@ import org.lineageos.settings.R;
 import org.lineageos.settings.services.*;
 import org.lineageos.settings.slider.SliderConstants;
 
-public class OPlusExtras extends PreferenceFragmentCompat
+import com.android.settingslib.widget.SettingsBasePreferenceFragment;
+
+public class OPlusExtras extends SettingsBasePreferenceFragment
         implements Preference.OnPreferenceChangeListener {
     private static final String TAG = OPlusExtras.class.getSimpleName();
 

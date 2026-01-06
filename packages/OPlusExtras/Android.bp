@@ -30,7 +30,9 @@ android_app {
     resource_dirs: ["res"],
 
     optimize: {
+        optimize: true,
         proguard_flags_files: ["proguard.flags"],
+        shrink_resources: true,
     },
 }
 
